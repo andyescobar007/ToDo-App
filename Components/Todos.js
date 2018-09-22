@@ -10,9 +10,11 @@ export default class ListItem extends React.Component {
 
   handleToggle = () => {
     this.props.toggleCheck(this.props.task.id);
+    
   };
 
   handleDelete = () => {
+   //this.props.eliminarTarea(this.props.task);
     this.props.deleteTask(this.props.task.id);
   };
 

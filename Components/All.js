@@ -27,6 +27,7 @@ export default class All extends React.Component {
           renderItem={({ item }) => (
             <ListItem
               task={item}
+             // eliminarTarea={this.props.screenProps.eliminarTarea}
               toggleCheck={this.props.screenProps.toggleCheck}
               deleteTask={this.props.screenProps.deleteTask}
             />
